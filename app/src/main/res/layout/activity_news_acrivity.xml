@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#201E28"
+    android:layout_width="match_parent"
+    android:paddingBottom="20dp"
+
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/news_list_title_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_semibold"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp"
+        android:text="TextView"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/news_list_text"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:paddingVertical="10dp"
+        android:paddingHorizontal="20dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <Button
+        android:id="@+id/news_list_button_main"
+        android:paddingHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:paddingVertical="10dp"
+        android:layout_height="wrap_content"
+        android:text="Вернуться обратно" />
+
+</LinearLayout>

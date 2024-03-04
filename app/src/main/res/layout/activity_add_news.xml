@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#201E28"
+    tools:context=".BlogMain">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Добавление новости"
+        android:textColor="#fdfdfd"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/add_title"
+        android:layout_width="250dp"
+        android:ems ="10"
+        android:layout_height="48dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp"
+        android:hint="Название новости" />
+    <EditText
+        android:id="@+id/add_desc"
+        android:layout_width="250dp"
+        android:ems ="10"
+        android:layout_height="48dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp"
+        android:hint="Кратко о новости" />
+    <EditText
+        android:id="@+id/add_text"
+        android:layout_width="250dp"
+        android:ems ="10"
+        android:layout_height="48dp"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:textColorHint="@color/white"
+        android:layout_marginTop="20dp"
+        android:hint="Вся новость" />
+    <Button
+        android:id="@+id/button_add_news"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Добавить новость"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/button_reg"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="На главную страницу" />
+</LinearLayout>
